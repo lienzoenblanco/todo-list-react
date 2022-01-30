@@ -1,12 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
-/* 
+html {
+    display: flex;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.todo {
+    width: 70%;
+    margin: auto;
+    padding-top: 10%;
+}
 
-*/
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2cm;
+    text-align: center;
+    color: #2D2424;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    position: relative;
+}
+
+.check {
+    padding: 10px;
+}
