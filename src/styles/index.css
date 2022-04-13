@@ -17,6 +17,19 @@ h1 {
     color: #2D2424;
 }
 
+.input {
+    width: 80%;
+}
+
+.select {
+    margin-left: 30px;
+    width: 30%;
+}
+
+.add-task {
+    display: flex;
+}
+
 li {
     list-style: none;
     padding: 10px;
@@ -26,3 +39,39 @@ li {
 .check {
     padding: 10px;
 }
+
+.counters {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.priority-importante {
+    background: #EBE884;
+}
+
+.priority-normal {
+    background: #A9EBA1;
+}
+
+.priority-urgente {
+    background: #EB5E27;
+}
+
+.hechas {
+    background-color: #75C0DB;
+}
+
+.normal {
+    background-color: #A9EBA1;
+}
+
+.importante {
+    background-color: #EBE884;
+}
+
+.urgente {
+    background-color: #EB5E27;
+}
+
+
